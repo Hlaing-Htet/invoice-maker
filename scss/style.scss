@@ -1,0 +1,13 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "../node_modules/animate.css/animate.min.css";
+
+input[type=number]::-webkit-inner-spin-button{
+    margin-left: 5px;
+}
+.delBtn,.plusBtn,.dashBtn{
+    display: none;
+}
+tbody tr:hover .delBtn,tbody tr:hover .dashBtn,tbody tr:hover .plusBtn{
+    display: inline-block;
+}
